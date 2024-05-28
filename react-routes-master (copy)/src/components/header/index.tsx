@@ -4,7 +4,7 @@ export function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-3 fixed-top">
       <div className="container">
-        <Link className="navbar-brand" to="/">Bem-vindo</Link>
+        <Link className="navbar-brand" to="/" id="bemVindoButton" data-testid="bemVindoButton">Bem-vindo</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -20,7 +20,7 @@ export function Header() {
               <Link className="nav-link" to="/produto">Produtos</Link>
             </li> */}
             <li className="nav-item">
-              <Link className="nav-link" to="/favoritos">Favoritos</Link>
+              <Link className="nav-link" to="/favoritos" data-testid="favoritosButton">Favoritos</Link>
             </li>
             
           </ul>

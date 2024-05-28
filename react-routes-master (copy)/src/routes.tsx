@@ -10,6 +10,7 @@ import { Private } from './routes/Private';
 import { ProdutoDetalhes } from './pages/produto/ProdutoDetalhes';
 // import { ListaFavoritos } from './pages/produto/ListaFavoritos'; // Importe o componente ListaFavoritos
 import { FavoritosPage } from './pages/FavoritosPage';
+import { Sobre } from './pages/sobre';
 
 const router = createBrowserRouter([
   {
